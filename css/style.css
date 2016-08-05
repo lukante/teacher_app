@@ -1,0 +1,232 @@
+/*--------------
+RESET STYLES 
+---------------*/
+
+input:focus,
+button:focus {
+    outline-offset: 0;
+    outline: 0 none;
+}
+
+/* ---------------
+COLORS
+------------------*/
+.pink {
+    color: #E54B4B;
+}
+.gunmetal {
+    color: #2A324B;
+}
+.violet {
+    color: #C49BBB;
+}
+.tangerine {
+    color: #FFA987;
+}
+.linen {
+    color: #F7EBE8;
+}
+
+/* -------------------------------
+CONTAINER FOR ALL APP
+-------------------- */
+body {
+    background-color: #AEAEAE;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------
+HEADER
+-------------------- */
+#main-header {
+    background-color: #1F1A38;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+#app-logo {
+    background-color: #DD99BB;
+    min-width: 300px;
+    color: #1F1A38;
+    font-weight: 700;
+    text-align: center;
+    height: 100%;
+}
+/* -------------------------------
+MAIN CONTAINER
+-------------------- */
+#main-container {
+    flex-direction: row;
+    display: flex;
+    margin-top: 100px;
+}
+
+/* -------------------------------
+SIDEBAR
+-------------------- */
+#sidebar {
+    height: 500px;
+    background-color: #1F1A38;
+    min-width: 300px;
+    position: fixed;
+}
+
+
+
+
+/* -------------------------------
+MAIN SECTION
+-------------------- */
+#main-section {
+    height: 500px;
+    width: 100%;
+    background-color: #EAD7D1;
+    margin-left: 300px;
+}
+
+
+
+
+
+/* ------------
+MAIN STYLES
+-------------*/
+
+
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.column {
+    margin: 20px;
+}
+
+table {
+    background-color: #2D3E50;
+    margin: 0 auto;
+}
+
+
+/* BUTTONS */
+
+.btn-add {
+    border: 0 none;
+    background-color: #1BBC9B;
+    border: 2px solid #1BBC9B;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 600;
+    line-height: 2em;
+    transition: all .3s;
+}
+
+.btn-add:hover {
+    border: 2px solid #1BBC9B;
+    color: #1BBC9B;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+/* SEARCH & ADD*/
+
+.tab-search {
+    background-color: #E64C66;
+    color: #fff;
+    text-align: left;
+}
+
+.tab-search th {
+    padding: 5px 10px;
+}
+
+.tab-add input,
+.tab-add select {
+    background-color: #fff;
+    color: #2D3E50;
+    border: 2px solid #2D3E50;
+}
+
+.tab-search input {
+    background-color: #fff;
+    color: #2D3E50;
+    border: 2px solid #E64C66;
+}
+
+.tab-search input,
+.tab-add input,
+.tab-add select {
+    padding: 5px;
+    margin: 5px 10px;
+    font-size: .9em;
+    transition: all .3s;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+}
+
+
+.tab-search input:focus {
+    border: 2px solid #2D3E50;
+}
+
+.tab-add input:focus {
+    border: 2px solid #E64C66;
+}
+
+.tab-add p {
+    color: #fff;
+    margin: 0 10px;
+    font-size: .8em;
+}
+
+/* ERRORS */
+.toggleError {
+border: 2px solid red !important;
+}
+
+/* TAB HEADER */
+
+.tab-header th {
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+.tab-title {
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+    font-size: 1.5em;
+}
+
+.tab-header {
+    background-color: #1BBC9B;
+}
+
+tbody {
+    background-color: #fff;
+    color: #2D3E50;
+    text-align: center;
+    font-weight: 600;
+}
+
+tbody td {
+    padding: 7px;
+}
+
+
